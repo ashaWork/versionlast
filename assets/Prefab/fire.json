@@ -1,0 +1,140 @@
+{
+  "id": "eaa2ba42-971a-413b-b8c4-99b2f5ab674d",
+  "name": "fire",
+  "components": {
+    "Transform": {
+      "pos": [
+        1.5659589767456055,
+        -5.539464950561523,
+        0.019999999552965164
+      ],
+      "rotation": 1.0,
+      "scale": [
+        5.0,
+        3.4375,
+        0.0
+      ]
+    },
+    "Render": {
+      "shape": "square",
+      "hasTex": 1,
+      "texture": "assets/Texture/Smoke_Sprite_Sheet.jpg",
+      "hasAnimation": 1
+    },
+    "Physics": {
+      "physicsFlag": 1,
+      "moveSpeed": 1.0,
+      "jumpForce": 100.0,
+      "damping": 0.9800000190734863,
+      "mass": 1.0,
+      "inWater": 0,
+      "buoyancy": 0
+    },
+    "CollisionInfo": {
+      "collisionFlag": 1,
+      "autoFitScale": 1,
+      "colliderSize": [
+        5.0,
+        3.4375,
+        0.0
+      ],
+      "colliderType": "square",
+      "collisionRes": "StopWhenCollide"
+    },
+    "StateMachine": {
+      "state": "Idle",
+      "facingRight": 1,
+      "stateTime": 0.0,
+      "Idle": {
+        "animState": {
+          "texture": "assets/Texture\\sprite_fire.png",
+          "loop": 1,
+          "totalColumn": 6,
+          "totalRow": 4,
+          "frameTime": 0.07000000029802322,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 5.0,
+          "lastFramRow": 3.0
+        }
+      },
+      "Walking": {
+        "animState": {
+          "texture": "assets/Texture\\Smoke_Sprite_Sheet.png",
+          "loop": 1,
+          "totalColumn": 6,
+          "totalRow": 4,
+          "frameTime": 0.1469999998807907,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 5.0,
+          "lastFramRow": 3.0
+        }
+      },
+      "Jumping": {
+        "animState": {
+          "texture": "",
+          "loop": 1,
+          "totalColumn": 1,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      },
+      "Falling": {
+        "animState": {
+          "texture": "",
+          "loop": 1,
+          "totalColumn": 1,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      },
+      "Shooting": {
+        "animState": {
+          "texture": "",
+          "loop": 1,
+          "totalColumn": 1,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      },
+      "Dead": {
+        "animState": {
+          "texture": "",
+          "loop": 1,
+          "totalColumn": 1,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      }
+    },
+    "AudioComponent": {
+      "audioFile": "assets/Audio\\steam.wav",
+      "volume": 1.0,
+      "pitch": 1.0,
+      "loop": 0,
+      "playOnStart": 0,
+      "muted": 0,
+      "fadeInOnStart": 0,
+      "fadeInDuration": 1.0,
+      "fadeOutOnStop": 0,
+      "fadeOutDuration": 1.0
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "objects": [
+    {
+      "name": "confirmation_background",
+      "components": {
+        "Transform": {
+          "pos": [0.0, 0.0, 0.0],
+          "scale": [10.0, 5.0, 0.0] 
+        },
+        "Render": {
+          "shape": "square",
+          "hasTex": 0
+        }
+      }
+    },
+    {
+      "name": "yes_button",
+      "components": {
+        "Transform": {
+          "pos": [-2.5, -1.5, 1.0],
+          "scale": [3.0, 1.0, 0.0]
+        },
+        "Render": {
+          "shape": "square",
+          "hasTex": 1,
+          "texture": "assets/button.png",
+          "clr": [ 1.0, 1.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "yes_text",
+      "components": {
+        "Transform": {
+          "pos": [-3.0, -1.7, 1.0],
+          "rotation": 0.0,
+          "scale": [20.0, 20.0, 0.0]
+        },
+        "FontComponent": {
+          "word": "YES",
+          "color": [0.0, 0.0, 0.0],
+          "scale": 0.5,
+          "fontType": 1
+        }
+      }
+    },
+    {
+      "name": "no_text",
+      "components": {
+        "Transform": {
+          "pos": [2.0, -1.7, 1.0],
+          "rotation": 0.0,
+          "scale": [20.0, 20.0, 0.0]
+        },
+        "FontComponent": {
+          "word": "NO",
+          "color": [0.0, 0.0, 0.0],
+          "scale": 0.5,
+          "fontType": 1
+        }
+      }
+    },
+    {
+      "name": "no_button",
+      "components": {
+        "Transform": {
+          "pos": [2.5, -1.5, 1.0],
+          "scale": [3.0, 1.0, 0.0]
+        },
+        "Render": {
+          "shape": "square",
+          "hasTex": 1,
+          "texture": "assets/button.png",
+          "clr": [ 1.0, 1.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "confirmation_text",
+      "components": {
+        "Transform": {
+          "pos": [-3.5, 0.0, 1.0],
+          "rotation": 0.0,
+          "scale": [20.0, 20.0, 0.0]
+        },
+        "FontComponent": {
+          "word": "Confirm Quit",
+          "color": [0.0, 0.0, 0.0],
+          "scale": 1.0,
+          "fontType": 1
+        }
+      }
+    }
+  ]
+}

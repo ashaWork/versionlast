@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "objects": [
+    {
+      "name": "pause_background",
+      "components": {
+        "Transform": {
+          "pos": [0.0, 0.0, 0.0],
+          "scale": [10.0, 8.0, 0.0] 
+        },
+        "Render": {
+          "shape": "square",
+          "hasTex": 0
+        }
+      }
+    },
+    {
+      "name": "control_button",
+      "components": {
+        "Transform": {
+          "pos": [0.0, 2.0, 1.0],
+          "scale": [7.0, 1.5, 0.0]
+        },
+        "Render": {
+          "shape": "square",
+          "hasTex": 1,
+          "texture": "assets/button.png",
+          "clr": [ 1.0, 1.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "control_text",
+      "components": {
+        "Transform": {
+          "pos": [-1.5, 1.8, 1.0]
+        },
+        "FontComponent": {
+          "word": "HOW TO PLAY",
+          "color": [0.0, 0.0, 0.0],
+          "scale": 0.5,
+          "fontType": 1
+        }
+      }
+    },
+    {
+      "name": "resume_text",
+      "components": {
+        "Transform": {
+          "pos": [-2.0, -0.3, 1.0]
+        },
+        "FontComponent": {
+          "word": "RESUME GAME",
+          "color": [0.0, 0.0, 0.0],
+          "scale": 0.5,
+          "fontType": 1
+        }
+      }
+    },
+    {
+      "name": "resume_button",
+      "components": {
+        "Transform": {
+          "pos": [0.0, 0.0, 1.0],
+          "scale": [7.0, 1.5, 0.0]
+        },
+        "Render": {
+          "shape": "square",
+          "hasTex": 1,
+          "texture": "assets/button.png",
+          "clr": [ 1.0, 1.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "menu_text",
+      "components": {
+        "Transform": {
+          "pos": [-1.5, -2.3, 1.0]
+        },
+        "FontComponent": {
+          "word": "MAIN MENU",
+          "color": [0.0, 0.0, 0.0],
+          "scale": 0.5,
+          "fontType": 1
+        }
+      }
+    },
+    {
+      "name": "menu_button",
+      "components": {
+        "Transform": {
+          "pos": [0.0, -2.0, 1.0],
+          "scale": [7.0, 1.5, 0.0]
+        },
+        "Render": {
+          "shape": "square",
+          "hasTex": 1,
+          "texture": "assets/button.png",
+          "clr": [ 1.0, 1.0, 1.0 ]
+        }
+      }
+    }
+  ]
+}

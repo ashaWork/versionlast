@@ -1,0 +1,57 @@
+{
+  "id": "b1a12273-a692-4ce0-8072-156da2c70842",
+  "name": "bullet",
+  "components": {
+    "Transform": {
+      "pos": [
+        -1000.0,
+        -1000.0,
+        0.019999999552965164
+      ],
+      "rotation": 0.5,
+      "scale": [
+        0.5,
+        0.5,
+        0.0
+      ]
+    },
+    "Render": {
+      "shape": "square",
+      "hasTex": 1,
+      "texture": "assets/Texture/water_texture.png",
+      "hasAnimation": 0
+    },
+    "Physics": {
+      "physicsFlag": 0,
+      "moveSpeed": 10.0,
+      "jumpForce": 100.0,
+      "damping": 0.9800000190734863,
+      "mass": 1.0,
+      "inWater": 0,
+      "buoyancy": 0
+    },
+    "CollisionInfo": {
+      "collisionFlag": 1,
+      "autoFitScale": 1,
+      "colliderSize": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "colliderType": "square",
+      "collisionRes": "StopWhenCollide"
+    },
+    "AudioComponent": {
+      "audioFile": "assets/Audio/underwater.wav",
+      "volume": 0.800000011920929,
+      "pitch": 1.0,
+      "loop": 0,
+      "playOnStart": 0,
+      "muted": 0,
+      "fadeInOnStart": 1,
+      "fadeInDuration": 0.20000000298023224,
+      "fadeOutOnStop": 1,
+      "fadeOutDuration": 0.5
+    }
+  }
+}

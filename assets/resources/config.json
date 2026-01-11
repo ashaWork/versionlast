@@ -1,0 +1,16 @@
+{
+  "window": {
+    "width": 1600,
+    "height": 800,
+    "title": "Tanuki Lab",
+    "vsync": true,
+    "fullscreen": true
+  },
+  "render": {
+    "clear_color": [0.2, 0.2, 0.25, 1.0]
+  },
+  "debug": {
+    "show_fps_in_title": true,
+    "show_input_debug": true
+  }
+}

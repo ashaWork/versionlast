@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "objects": [
+    {
+      "name": "control_background",
+      "components": {
+        "Transform": {
+          "pos": [0.0, 0.0, 0.0],
+          "scale": [30.0, 25.0, 0.0] 
+        },
+        "Render": {
+          "shape": "square",
+          "hasTex": 1,
+          "texture": "assets/control_background.png",
+          "clr": [ 1.0, 1.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "back_text",
+      "components": {
+        "Transform": {
+          "pos": [-15.0, 8.0, 1.0],
+          "rotation": 0.0,
+          "scale": [20.0, 20.0, 0.0]
+        },
+        "FontComponent": {
+          "word": "BACK",
+          "color": [0.0, 0.0, 0.0],
+          "scale": 0.5,
+          "fontType": 1
+        }
+      }
+    },
+    {
+      "name": "back_button",
+      "components": {
+        "Transform": {
+          "pos": [-14.0, 8.5, 0.0],
+          "scale": [6.0, 2.0, 0.0]
+        },
+        "Render": {
+          "shape": "square",
+          "hasTex": 1,
+          "texture": "assets/button.png",
+          "clr": [ 1.0, 1.0, 1.0 ]
+        }
+      }
+    }
+  ]
+}

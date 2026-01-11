@@ -1,0 +1,139 @@
+{
+  "id": "f04819ff-270c-41b4-8387-73382eb85103",
+  "name": "water_source",
+  "components": {
+    "Transform": {
+      "pos": [
+        -6.120626926422119,
+        -7.936646461486816,
+        0.0
+      ],
+      "rotation": 0.0,
+      "scale": [
+        4.400000095367432,
+        4.400000095367432,
+        0.0
+      ]
+    },
+    "Render": {
+      "shape": "square",
+      "hasTex": 0,
+      "hasAnimation": 1
+    },
+    "Physics": {
+      "physicsFlag": 1,
+      "moveSpeed": 1.0,
+      "jumpForce": 100.0,
+      "damping": 0.9800000190734863,
+      "mass": 1.0,
+      "inWater": 0,
+      "buoyancy": 0
+    },
+    "CollisionInfo": {
+      "collisionFlag": 1,
+      "autoFitScale": 0,
+      "colliderSize": [
+        1.399999976158142,
+        4.400000095367432,
+        0.0
+      ],
+      "colliderType": "square",
+      "collisionRes": "StopWhenCollide"
+    },
+    "StateMachine": {
+      "state": "Idle",
+      "facingRight": 0,
+      "stateTime": 5.023358345031738,
+      "Idle": {
+        "animState": {
+          "texture": "assets/Texture\\Water_Source_Full.png",
+          "loop": 1,
+          "totalColumn": 1,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      },
+      "Walking": {
+        "animState": {
+          "texture": "assets/Texture\\Water_Source_Empty.png",
+          "loop": 1,
+          "totalColumn": 1,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      },
+      "Jumping": {
+        "animState": {
+          "texture": "",
+          "loop": 1,
+          "totalColumn": 1,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      },
+      "Falling": {
+        "animState": {
+          "texture": "assets/Texture\\Water_Source_Empty.png",
+          "loop": 1,
+          "totalColumn": 1,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      },
+      "Shooting": {
+        "animState": {
+          "texture": "",
+          "loop": 1,
+          "totalColumn": 1,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      },
+      "Dead": {
+        "animState": {
+          "texture": "",
+          "loop": 1,
+          "totalColumn": 1,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      }
+    },
+    "AudioComponent": {
+      "audioFile": "assets/Audio\\collect_water.wav",
+      "volume": 1.0,
+      "pitch": 1.0,
+      "loop": 0,
+      "playOnStart": 0,
+      "muted": 0,
+      "fadeInOnStart": 0,
+      "fadeInDuration": 1.0,
+      "fadeOutOnStop": 0,
+      "fadeOutDuration": 1.0
+    }
+  }
+}

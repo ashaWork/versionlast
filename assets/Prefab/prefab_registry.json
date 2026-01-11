@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "prefabIndex": [
+    {
+      "id": "b1a12273-a692-4ce0-8072-156da2c70842",
+      "name": "bullet",
+      "path": "/Prefab/bullet.json"
+    },
+    {
+      "id": "dd60e1e1-641c-4ed5-b69d-ffadfa02fb7a",
+      "name": "player",
+      "path": "/Prefab/player.json"
+    },
+    {
+      "id": "98416fa9-2ae1-4432-bcf4-0d4352a9b29a",
+      "name": "to win",
+      "path": "/Prefab/to win.json"
+    },
+    {
+      "id": "f7665aa3-619e-49a1-892a-31fbc8b377a2",
+      "name": "platform",
+      "path": "/Prefab/platform.json"
+    },
+    {
+      "id": "eaa2ba42-971a-413b-b8c4-99b2f5ab674d",
+      "name": "fire",
+      "path": "/Prefab/fire.json"
+    },
+    {
+      "id": "f04819ff-270c-41b4-8387-73382eb85103",
+      "name": "water_source",
+      "path": "/Prefab/water_source.json"
+    },
+    {
+      "id": "887d25cd-bd8d-481f-9f64-f371300a2cf0",
+      "name": "win screen",
+      "path": "/Prefab/win screen.json"
+    },
+    {
+      "id": "94d018f7-a766-4ee6-95be-f39272697938",
+      "name": "tile_platform",
+      "path": "/Prefab/tile_platform.json"
+    },
+    {
+      "id": "25591e7c-7d8f-47e1-a686-f950e77e91a1",
+      "name": "land_vfx",
+      "path": "/Prefab/land_vfx.json"
+    }
+  ]
+}

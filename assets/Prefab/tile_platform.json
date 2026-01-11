@@ -1,0 +1,45 @@
+{
+  "id": "94d018f7-a766-4ee6-95be-f39272697938",
+  "name": "tile_platform",
+  "components": {
+    "Transform": {
+      "pos": [
+        -5.7364373207092285,
+        -5.4706597328186035,
+        0.0
+      ],
+      "rotation": 0.0,
+      "scale": [
+        3.6999998092651367,
+        1.6999999284744263,
+        0.0
+      ]
+    },
+    "Render": {
+      "shape": "square",
+      "hasTex": 1,
+      "texture": "assets/Texture\\tile.png",
+      "hasAnimation": 0
+    },
+    "Physics": {
+      "physicsFlag": 1,
+      "moveSpeed": 1.0,
+      "jumpForce": 100.0,
+      "damping": 0.9800000190734863,
+      "mass": 1.0,
+      "inWater": 0,
+      "buoyancy": 0
+    },
+    "CollisionInfo": {
+      "collisionFlag": 1,
+      "autoFitScale": 0,
+      "colliderSize": [
+        2.6999998092651367,
+        3.200000047683716,
+        0.0
+      ],
+      "colliderType": "square",
+      "collisionRes": "StopWhenCollide"
+    }
+  }
+}

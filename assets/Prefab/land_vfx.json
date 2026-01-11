@@ -1,0 +1,108 @@
+{
+  "id": "25591e7c-7d8f-47e1-a686-f950e77e91a1",
+  "name": "land_vfx",
+  "components": {
+    "Transform": {
+      "pos": [
+        4.685161113739014,
+        1000.0,
+        0.9990000128746033
+      ],
+      "rotation": 0.0,
+      "scale": [
+        10.0,
+        8.5,
+        0.0
+      ]
+    },
+    "Render": {
+      "shape": "square",
+      "hasTex": 1,
+      "texture": "assets/Texture\\sprite_fire.png",
+      "hasAnimation": 1
+    },
+    "StateMachine": {
+      "state": "Idle",
+      "facingRight": 1,
+      "stateTime": 0.0,
+      "Idle": {
+        "animState": {
+          "texture": "assets/Texture\\land-vfx.png",
+          "loop": 1,
+          "totalColumn": 3,
+          "totalRow": 3,
+          "frameTime": 0.1469999998807907,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 1.0,
+          "lastFramRow": 2.0
+        }
+      },
+      "Walking": {
+        "animState": {
+          "texture": "",
+          "loop": 1,
+          "totalColumn": 1,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      },
+      "Jumping": {
+        "animState": {
+          "texture": "",
+          "loop": 1,
+          "totalColumn": 1,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      },
+      "Falling": {
+        "animState": {
+          "texture": "",
+          "loop": 1,
+          "totalColumn": 1,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      },
+      "Shooting": {
+        "animState": {
+          "texture": "",
+          "loop": 1,
+          "totalColumn": 1,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      },
+      "Dead": {
+        "animState": {
+          "texture": "",
+          "loop": 1,
+          "totalColumn": 1,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      }
+    }
+  }
+}

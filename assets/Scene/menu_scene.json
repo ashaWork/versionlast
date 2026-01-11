@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "objects": [
+    {
+      "name": "background",
+      "components": {
+        "Transform": {
+          "pos": [0.0, 0.0, 0.0],
+          "scale": [45.0, 25.0, 15.0] 
+        },
+        "Render": {
+          "shape": "square",
+          "hasTex": 1,
+          "texture": "assets/menu_background.png",
+          "clr": [ 1.0, 1.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "play_button",
+      "components": {
+        "Transform": {
+          "pos": [-11.0, 3.0, 1.0],
+          "scale": [8.0, 3.0, 0.0]
+        },
+        "Render": {
+          "shape": "square",
+          "hasTex": 1,
+          "texture": "assets/start_button.png",
+          "clr": [ 1.0, 1.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "control_button",
+      "components": {
+        "Transform": {
+          "pos": [-11.0, -0.5, 1.0],
+          "scale": [8.0, 3.0, 0.0]
+        },
+        "Render": {
+          "shape": "square",
+          "hasTex": 1,
+          "texture": "assets/control_button.png",
+          "clr": [ 1.0, 1.0, 1.0 ]
+        }
+      }
+    },
+    {
+      "name": "exit_button",
+      "components": {
+        "Transform": {
+          "pos": [-11.0, -4.0, 1.0],
+          "scale": [8.0, 3.0, 0.0]
+        },
+        "Render": {
+          "shape": "square",
+          "hasTex": 1,
+          "texture": "assets/quit_button.png",
+          "clr": [ 1.0, 1.0, 1.0 ]
+        }
+      }
+    }
+  ]
+}

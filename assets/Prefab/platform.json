@@ -1,0 +1,18 @@
+{
+    "id": "f7665aa3-619e-49a1-892a-31fbc8b377a2",
+    "name": "platform",
+    "layer": 0,
+      "components": {
+        "Transform": {
+          "pos": [0.0, 0.0, -0.001],
+          "rotation": 1.0,
+          "scale": [50.0, 50.0, 0.0]
+        },
+        "Render": {
+          "shape": "circle",
+          "hasTex": 0,
+          "hasAnimation": 0,
+          "clr": [ 1.0, 0.5, 0.5 ]
+        }
+      }
+}

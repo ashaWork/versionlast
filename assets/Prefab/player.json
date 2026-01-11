@@ -1,0 +1,116 @@
+{
+  "id": "dd60e1e1-641c-4ed5-b69d-ffadfa02fb7a",
+  "name": "player",
+  "components": {
+    "Transform": {
+      "pos": [
+        0.0,
+        0.0,
+        0.03
+      ],
+      "rotation": 1.0,
+      "scale": [
+        5.0,
+        3.0,
+        0.0
+      ]
+    },
+    "Render": {
+      "shape": "square",
+      "hasTex": 1,
+      "texture": "assets/Texture/Leaf_Gun_Empty.png",
+      "hasAnimation": 1
+    },
+    "Input": {},
+    "Physics": {
+      "physicsFlag": 1,
+      "moveSpeed": 5.0,
+      "jumpForce": 100.0,
+      "damping": 0.98,
+      "mass": 1.0,
+      "inWater": 0,
+      "buoyancy": 0
+    },
+    "CollisionInfo": {
+      "collisionFlag": 1,
+      "autoFitScale": 0,
+      "colliderSize": [
+        3.0,
+        3.0,
+        0.0
+      ],
+      "colliderType": "square",
+      "collisionRes": "MoveWhenCollide"
+    },
+    "StateMachine": {
+      "state": "Idle",
+      "facingRight": 1,
+      "stateTime": 0.0,
+      "Idle": {
+        "animState": {
+          "texture": "assets/Texture/Kinuta_Idle_SS.png",
+          "loop": 1,
+          "totalColumn": 4,
+          "totalRow": 4,
+          "frameTime": 0.1469999998807907,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 1.0,
+          "lastFramRow": 3.0
+        }
+      },
+      "Walking": {
+        "animState": {
+          "texture": "assets/Texture/Kinuta_Walk_SS.png",
+          "loop": 1,
+          "totalColumn": 6,
+          "totalRow": 1,
+          "frameTime": 0.09599997103214264,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 5.0,
+          "lastFramRow": 0.0
+        }
+      },
+      "Jumping": {
+        "animState": {
+          "texture": "assets/Texture/Kinuta_Jump_SS.png",
+          "loop": 1,
+          "totalColumn": 4,
+          "totalRow": 1,
+          "frameTime": 0.5,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 3.0,
+          "lastFramRow": 0.0
+        }
+      },
+      "Falling": {
+        "animState": {
+          "texture": "assets/Texture/Kinuta_Fall_SS.png",
+          "loop": 0,
+          "totalColumn": 4,
+          "totalRow": 1,
+          "frameTime": 0.10000000149011612,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      },
+      "Shooting": {
+        "animState": {
+          "texture": "assets/Texture/Kinuta_Land_SS.png",
+          "loop": 0,
+          "totalColumn": 3,
+          "totalRow": 1,
+          "frameTime": 0.0820000022649765,
+          "initialFramCol": 0.0,
+          "initialFramRow": 0.0,
+          "lastFramCol": 0.0,
+          "lastFramRow": 0.0
+        }
+      }
+    }
+  }
+}

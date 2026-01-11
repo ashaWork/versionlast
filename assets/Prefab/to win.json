@@ -1,0 +1,57 @@
+{
+  "id": "98416fa9-2ae1-4432-bcf4-0d4352a9b29a",
+  "name": "to win",
+  "components": {
+    "Transform": {
+      "pos": [
+        -13.421919822692871,
+        2.9457364082336426,
+        0.0
+      ],
+      "rotation": 0.0,
+      "scale": [
+        3.700000047683716,
+        3.700000047683716,
+        0.0
+      ]
+    },
+    "Render": {
+      "shape": "square",
+      "hasTex": 1,
+      "texture": "assets/Texture\\Bell_Heated.png",
+      "hasAnimation": 0
+    },
+    "Physics": {
+      "physicsFlag": 1,
+      "moveSpeed": 1.0,
+      "jumpForce": 100.0,
+      "damping": 0.9800000190734863,
+      "mass": 1.0,
+      "inWater": 0,
+      "buoyancy": 0
+    },
+    "CollisionInfo": {
+      "collisionFlag": 1,
+      "autoFitScale": 0,
+      "colliderSize": [
+        2.5,
+        0.5,
+        0.0
+      ],
+      "colliderType": "square",
+      "collisionRes": "StopWhenCollide"
+    },
+    "AudioComponent": {
+      "audioFile": "assets/Audio\\underwater.wav",
+      "volume": 1.0,
+      "pitch": 1.0,
+      "loop": 0,
+      "playOnStart": 0,
+      "muted": 0,
+      "fadeInOnStart": 0,
+      "fadeInDuration": 1.0,
+      "fadeOutOnStop": 0,
+      "fadeOutDuration": 1.0
+    }
+  }
+}

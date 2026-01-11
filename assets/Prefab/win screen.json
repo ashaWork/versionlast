@@ -1,0 +1,25 @@
+{
+  "id": "887d25cd-bd8d-481f-9f64-f371300a2cf0",
+  "name": "win screen",
+  "components": {
+    "Transform": {
+      "pos": [
+        1000.0,
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "scale": [
+        32.0,
+        20.0,
+        0.0
+      ]
+    },
+    "Render": {
+      "shape": "square",
+      "hasTex": 1,
+      "texture": "assets/Texture\\win_screen.jpg",
+      "hasAnimation": 0
+    }
+  }
+}
